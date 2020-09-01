@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fjalla+One&family=Lexend+Peta&family=Londrina+Solid&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Salario de actores de Audiovisual</h1>
+      <h2>Según la tabla salarial de la unión de Actores</h2>
+      <div class="container__info">
+        <h3>Información sobre tu contrato</h3>
+        <form action="">
+          <label for="size">Tipo de producción:</label>
+          <select id="size" name="size">
+            <option value="36">Cine</option>
+            <option value="37">Televisión</option>
+            <option value="38">Publicidad</option>
+            <option value="39">Bajo presupuesto</option>
+          </select>
+          <label for="size">Tipo de papel:</label>
+          <select id="size" name="size">
+            <option value="36">Protagonista</option>
+            <option value="37">Secundario</option>
+            <option value="38">Repart</option>
+            <option value="39">Pequeñas partes</option>
+          </select>
+          <label for="size">Tipo de contrato:</label>
+          <select id="size" name="size">
+            <option value="36">Sesión</option>
+            <option value="37">Semana</option>
+            <option value="38">Mes</option>
+          </select>
+          <label for="duracion">Duracón del contrato</label>
+          <input id="duracion" type="number" name="duracion" />
+        </form>
+        <button class="container__button">Calcular</button>
+      </div>
+      <section class="result">
+        <h3>Tu salario:</h3>
+        <div>
+          <div>
+            <h4>Tu salario por (mes/semana/jornda):</h4>
+            <p>SALARIO</p>
+          </div>
+          <div>
+            <h4>Tu salario total:</h4>
+            <p>SALARIO</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
